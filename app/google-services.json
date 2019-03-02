@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "538495300793",
+    "firebase_url": "https://my-city-info-aad43.firebaseio.com",
+    "project_id": "my-city-info-aad43",
+    "storage_bucket": "my-city-info-aad43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538495300793:android:79189688a62f0357",
+        "android_client_info": {
+          "package_name": "com.example.mycityinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538495300793-tobdah4hesbq7ijud1jh8uuadkfjrp6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycityinfo",
+            "certificate_hash": "db1557ce3d518b5eb949a8bfaaf3d14fb5192906"
+          }
+        },
+        {
+          "client_id": "538495300793-kdgka0kn4q9hfu238bk66k3ka168avbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHFKnJe1i8jvOjz2lGVwPZrh20JNAl9wk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538495300793-kdgka0kn4q9hfu238bk66k3ka168avbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
