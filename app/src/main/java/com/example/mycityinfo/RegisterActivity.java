@@ -63,9 +63,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             Toast.makeText(this,"Please confirm your password",Toast.LENGTH_SHORT).show();
             return;
         }
-        progressDialog.setTitle("Registering user");
-        progressDialog.setMessage("Please wait");
-        progressDialog.show();
+        if(TextUtils.equals(password,cnfpassword)) {
+            progressDialog.setTitle("Registering user");
+            progressDialog.setMessage("Please wait");
+            progressDialog.show();
             firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
@@ -78,6 +79,11 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                     }
                 }
             });
+        }
+        else {
+            Toast.makeText(this,"Passwords Does not match",Toast.LENGTH_SHORT).show();
+            return;
+        }
     }
 
     public void openlogin(){

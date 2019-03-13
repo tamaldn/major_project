@@ -44,8 +44,6 @@
         android:layout_marginTop="8dp"
         android:autofillHints="@string/email"
         android:ems="10"
-
-
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:drawableLeft="@drawable/email"
