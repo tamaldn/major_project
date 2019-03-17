@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -25,6 +26,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private EditText passwordEditText;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
+    private FirebaseUser firebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,11 +34,17 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.login);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        firebaseUser = firebaseAuth.getCurrentUser();
         progressDialog = new ProgressDialog(this,R.style.MyAlertDialogStyle);
         registerButton = (Button)findViewById(R.id.button2);
         loginButton = (Button)findViewById(R.id.button1);
         emailEditText = (EditText)findViewById(R.id.editText1);
         passwordEditText = (EditText)findViewById(R.id.editText2);
+
+        if(firebaseUser != null){
+            Intent i = new Intent(LoginActivity.this, ContentActivity.class);
+            startActivity(i);
+        }
 
         registerButton.setOnClickListener(this);
         loginButton.setOnClickListener(this);
