@@ -14,9 +14,9 @@ public class ContentActivity extends AppCompatActivity implements Tab1.OnFragmen
         setContentView(R.layout.content);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Tab1"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab2"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab3"));
+        tabLayout.addTab(tabLayout.newTab().setText("Birganj"));
+        tabLayout.addTab(tabLayout.newTab().setText("Dharmanagar"));
+        tabLayout.addTab(tabLayout.newTab().setText("Kathmandu"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
