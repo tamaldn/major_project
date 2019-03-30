@@ -13,4 +13,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_city_information">My City Information</string>
+    <string name="choose_your_city">Choose your City</string>
+    <string name="birgunj">Birgunj</string>
+    <string name="dharmanagar">Dharmanagar</string>
+    <string name="kathmandu">Kathmandu</string>
 </resources>
