@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".KathmanduActivity"></activity>
+        <activity android:name=".DharmanagarActivity" />
+        <activity android:name=".BirgunjActivity" />
         <activity android:name=".ContentActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
