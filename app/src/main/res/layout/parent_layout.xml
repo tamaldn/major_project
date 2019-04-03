@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:fontFamily="@font/biorhyme_bold"
         android:gravity="top"
-        android:textColor="#2a0a12"
+        android:textColor="#99088a08"
         android:text="Hello World"
         android:textSize="30dp"/>
 

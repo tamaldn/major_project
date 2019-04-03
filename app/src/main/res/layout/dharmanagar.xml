@@ -37,8 +37,7 @@
         android:id="@+id/expandablelistview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:groupIndicator="@drawable/customindicator"
-        android:indicatorLeft="-10dp">
+        android:groupIndicator="@drawable/customindicator" >
     </ExpandableListView>
 
 </LinearLayout>

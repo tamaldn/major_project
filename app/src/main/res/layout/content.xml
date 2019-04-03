@@ -143,8 +143,8 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginStart="8dp"
         android:scaleType="fitXY"
         android:background="#00000000"
