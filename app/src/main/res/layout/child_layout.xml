@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#e0e0f8"
+    >
+
+    <TextView
+        android:id="@+id/child_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World"
+        android:textSize="20dp"
+        android:textColor="#cc2a0a12"
+        android:fontFamily="@font/biorhyme"
+        android:gravity="top"
+        android:paddingLeft="35dp"
+
+        />
+
+</LinearLayout>

@@ -10,15 +10,34 @@
     <string name="forgot">Forgot Password?</string>
     <string name="registered">Already registered? Login here</string>
     <string name="welcome_user">Welcome User</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="my_city_information">My City Information</string>
     <string name="choose_your_city">Choose your City</string>
     <string name="birgunj">Birgunj</string>
     <string name="dharmanagar">Dharmanagar</string>
     <string name="kathmandu">Kathmandu</string>
-    <string name="birgunj">Birgunj</string>
-    <string name="dharmanagar">Dharmanagar</string>
-    <string name="kathmandu">Kathmandu</string>
+
+    <string-array name="header_titles">
+        <item>Hospitals</item>
+        <item>Schools</item>
+        <item>Banks</item>
+    </string-array>
+
+    <string-array name="h1_items">
+        <item>NTD Hospital</item>
+        <item>Laxminagar PHC</item>
+        <item>PCC Memorial Eye Hospital</item>
+    </string-array>
+
+    <string-array name="h2_items">
+        <item>DNV School</item>
+        <item>Holy Cross Convent School</item>
+        <item>Bir Bikram Institution</item>
+    </string-array>
+
+    <string-array name="h3_items">
+        <item>State Bank of India</item>
+        <item>Axis Bank</item>
+        <item>Punjab National Bank</item>
+    </string-array>
 </resources>
