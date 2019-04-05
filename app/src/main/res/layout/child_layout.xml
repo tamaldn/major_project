@@ -14,7 +14,7 @@
         android:textColor="#cc2a0a12"
         android:fontFamily="@font/biorhyme"
         android:gravity="top"
-        android:paddingLeft="35dp"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
 
         />
 

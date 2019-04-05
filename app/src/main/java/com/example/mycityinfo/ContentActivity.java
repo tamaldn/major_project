@@ -36,7 +36,6 @@ public class ContentActivity extends AppCompatActivity implements View.OnClickLi
 
     public void logout(){
         firebaseAuth.signOut();
-        firebaseAuth.getCurrentUser().delete();
         finish();
         Intent i = new Intent(this,LoginActivity.class);
         startActivity(i);
