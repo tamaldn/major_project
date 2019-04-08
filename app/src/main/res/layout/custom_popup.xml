@@ -1,26 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="300dp"
-    android:layout_height="400dp"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
     android:layout_gravity="center"
     android:background="#dddddd">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dmr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        tools:ignore="ContentDescription"/>
+
     <TextView
-        android:onClick="dis"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#80ffffff"
+        android:fontFamily="@font/biorhyme"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/title"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_gravity="end"
+        android:background="#80ffffff"
         android:gravity="center"
-        android:text="x"
+        android:onClick="dis"
+        android:text="@string/x"
         android:textColor="@color/black"
-        android:textSize="30dp"/>
-    <TextView
-        android:text="hello"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/sobi"/>
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
 
-</LinearLayout>
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        android:src="@drawable/location"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:background="@drawable/popup_btn_background"
+        tools:ignore="ContentDescription"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        android:src="@drawable/photos"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:background="@drawable/popup_btn_background"
+        tools:ignore="ContentDescription"
+        />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        android:src="@drawable/info"
+        android:scaleType="fitXY"
+        android:padding="15dp"
+        android:background="@drawable/popup_btn_background"
+        tools:ignore="ContentDescription"/>
+
+</android.support.constraint.ConstraintLayout>

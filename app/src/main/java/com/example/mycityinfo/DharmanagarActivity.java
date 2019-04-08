@@ -1,10 +1,15 @@
 package com.example.mycityinfo;
 
 import android.app.Dialog;
+import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -41,10 +46,12 @@ public class DharmanagarActivity extends AppCompatActivity {
         for(String title : l1)
         {
             L1.add(title);
-        }for(String title : l2)
+        }
+        for(String title : l2)
         {
             L2.add(title);
-        }for(String title : l3)
+        }
+        for(String title : l3)
         {
             L3.add(title);
         }
@@ -55,7 +62,7 @@ public class DharmanagarActivity extends AppCompatActivity {
         expandableListView.setAdapter(listAdapter);
         expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
-            public boolean onChildClick (ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+            public boolean onChildClick (ExpandableListView parent, View v, int groupPosition, final int childPosition, long id) {
 
                 String txt = Childlist.get(Headings.get(groupPosition)).get(childPosition);
                 myDialog.setContentView(R.layout.custom_popup);
@@ -68,8 +75,11 @@ public class DharmanagarActivity extends AppCompatActivity {
                     }
                 });
                 myDialog.show();
-                TextView textView1 = myDialog.findViewById(R.id.sobi);
+                TextView textView1 = myDialog.findViewById(R.id.title);
                 textView1.setText(txt);
+                ImageView imageView = myDialog.findViewById(R.id.img);
+                int res = getResources().getIdentifier("kathmandu","drawable", getPackageName());
+                imageView.setImageResource(res);
 
                 return false;
             }
