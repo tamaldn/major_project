@@ -2,8 +2,10 @@ package com.example.mycityinfo;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -62,9 +64,10 @@ public class DharmanagarActivity extends AppCompatActivity {
         expandableListView.setAdapter(listAdapter);
         expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
-            public boolean onChildClick (ExpandableListView parent, View v, int groupPosition, final int childPosition, long id) {
+            public boolean onChildClick (ExpandableListView parent, View v, int groupPosition, final int childPosition, final long id) {
 
                 String txt = Childlist.get(Headings.get(groupPosition)).get(childPosition);
+                String idname = txt.toLowerCase().replaceAll("\\s+","");
                 myDialog.setContentView(R.layout.custom_popup);
                 TextView textView;
                 textView = myDialog.findViewById(R.id.textView);
@@ -75,11 +78,23 @@ public class DharmanagarActivity extends AppCompatActivity {
                     }
                 });
                 myDialog.show();
+
                 TextView textView1 = myDialog.findViewById(R.id.title);
                 textView1.setText(txt);
+
                 ImageView imageView = myDialog.findViewById(R.id.img);
-                int res = getResources().getIdentifier("kathmandu","drawable", getPackageName());
-                imageView.setImageResource(res);
+                int imgres = getResources().getIdentifier(idname,"drawable", getPackageName());
+                imageView.setImageResource(imgres);
+
+                ImageButton loc = myDialog.findViewById(R.id.loc);
+                loc.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(Intent.ACTION_VIEW);
+                        i.setData(Uri.parse(""));
+                        startActivity(i);
+                    }
+                });
 
                 return false;
             }

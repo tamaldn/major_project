@@ -27,14 +27,14 @@
 
     <string-array name="h1_items">
         <item>NTD Hospital</item>
-        <item>PC Chaterjee Memorial Eye Hospital</item>
+        <item>PCCM Eye Hospital</item>
         <item>Sanicherra PHC</item>
     </string-array>
 
     <string-array name="h2_items">
         <item>DNV School</item>
         <item>BBI School</item>
-        <item>Holy Cross Convent</item>
+        <item>Holy Cross School</item>
     </string-array>
 
     <string-array name="h3_items">
