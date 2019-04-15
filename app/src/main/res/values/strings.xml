@@ -19,27 +19,54 @@
     <string name="registered">Already Registered? Login here</string>
 
     <string-array name="header_titles">
-
-        <item>Hospitals</item>
-        <item>Schools</item>
+        <item>Hotels</item>
+        <item>Travelling</item>
+        <item>Restaurants</item>
+        <item>Shopping</item>
         <item>Banks</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Temples</item>
     </string-array>
 
-    <string-array name="h1_items">
+    <string-array name="dmr_hot">
+        <item>Panchabati</item>
+        <item>Hotel Tanusree</item>
+    </string-array>
+
+    <string-array name="dmr_tra">
+        <item>ISBT Dharmanagar</item>
+    </string-array>
+
+    <string-array name="dmr_res">
+        <item>Bandhabh Restaurent</item>
+    </string-array>
+
+    <string-array name="dmr_sho">
+        <item>CityLife Dharmanagar</item>
+        <item>Rana Plaza</item>
+        <item>Vishal Mega Mart</item>
+    </string-array>
+
+    <string-array name="dmr_hea">
         <item>NTD Hospital</item>
         <item>PCCM Eye Hospital</item>
         <item>Sanicherra PHC</item>
     </string-array>
 
-    <string-array name="h2_items">
+    <string-array name="dmr_edu">
         <item>DNV School</item>
         <item>BBI School</item>
         <item>Holy Cross School</item>
     </string-array>
 
-    <string-array name="h3_items">
+    <string-array name="dmr_ban">
         <item>Punjab National Bank</item>
         <item>State Bank of India</item>
         <item>Bank of India</item>
+    </string-array>
+
+    <string-array name="dmr_tem">
+        <item>Kali Bari</item>
     </string-array>
 </resources>

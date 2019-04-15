@@ -35,11 +35,21 @@ public class DharmanagarActivity extends AppCompatActivity {
         List<String> L1 = new ArrayList<String>();
         List<String> L2 = new ArrayList<String>();
         List<String> L3 = new ArrayList<String>();
+        List<String> L4 = new ArrayList<String>();
+        List<String> L5 = new ArrayList<String>();
+        List<String> L6 = new ArrayList<String>();
+        List<String> L7 = new ArrayList<String>();
+        List<String> L8 = new ArrayList<String>();
         final HashMap<String,List<String>> Childlist = new HashMap<String,List<String>>();
         String heading_items[] = getResources().getStringArray(R.array.header_titles);
-        String l1[] = getResources().getStringArray(R.array.h1_items);
-        String l2[] = getResources().getStringArray(R.array.h2_items);
-        String l3[] = getResources().getStringArray(R.array.h3_items);
+        String l1[] = getResources().getStringArray(R.array.dmr_hot);
+        String l2[] = getResources().getStringArray(R.array.dmr_tra);
+        String l3[] = getResources().getStringArray(R.array.dmr_res);
+        String l4[] = getResources().getStringArray(R.array.dmr_sho);
+        String l5[] = getResources().getStringArray(R.array.dmr_ban);
+        String l6[] = getResources().getStringArray(R.array.dmr_hea);
+        String l7[] = getResources().getStringArray(R.array.dmr_edu);
+        String l8[] = getResources().getStringArray(R.array.dmr_tem);
 
         for(String title : heading_items)
         {
@@ -57,9 +67,34 @@ public class DharmanagarActivity extends AppCompatActivity {
         {
             L3.add(title);
         }
+        for(String title : l4)
+        {
+            L4.add(title);
+        }
+        for(String title : l5)
+        {
+            L5.add(title);
+        }
+        for(String title : l6)
+        {
+            L6.add(title);
+        }
+        for(String title : l7)
+        {
+            L7.add(title);
+        }
+        for(String title : l8)
+        {
+            L8.add(title);
+        }
         Childlist.put(Headings.get(0),L1);
         Childlist.put(Headings.get(1),L2);
         Childlist.put(Headings.get(2),L3);
+        Childlist.put(Headings.get(3),L5);
+        Childlist.put(Headings.get(4),L6);
+        Childlist.put(Headings.get(5),L7);
+        Childlist.put(Headings.get(6),L7);
+        Childlist.put(Headings.get(7),L8);
         ListAdapter listAdapter = new ListAdapter(this, Headings, Childlist);
         expandableListView.setAdapter(listAdapter);
         expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
@@ -91,7 +126,7 @@ public class DharmanagarActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Intent i = new Intent(Intent.ACTION_VIEW);
-                        i.setData(Uri.parse(""));
+                        i.setData(Uri.parse("https://www.google.com/maps/dir//District+Hospital,+North+Tripura,+Chandrapur,+Dharmanagar,+Tripura+799251/@24.3886794,92.1591341,17.42z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc77c92b9cb:0x5104dc9375ae5e91!2m2!1d92.1578064!2d24.3898786!3e0"));
                         startActivity(i);
                     }
                 });
