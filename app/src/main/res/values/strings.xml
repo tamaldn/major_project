@@ -29,6 +29,41 @@
         <item>Temples</item>
     </string-array>
 
+
+    <string-array name="bir_hot">
+
+    </string-array>
+
+    <string-array name="bir_tra">
+
+    </string-array>
+
+    <string-array name="bir_res">
+
+    </string-array>
+
+    <string-array name="bir_sho">
+
+    </string-array>
+
+    <string-array name="bir_ban">
+
+    </string-array>
+
+    <string-array name="bir_hea">
+
+    </string-array>
+
+    <string-array name="bir_edu">
+
+    </string-array>
+
+    <string-array name="bir_tem">
+
+    </string-array>
+
+
+
     <string-array name="dmr_hot">
         <item>Panchabati</item>
         <item>Hotel Tanusree</item>
@@ -48,6 +83,12 @@
         <item>Vishal Mega Mart</item>
     </string-array>
 
+    <string-array name="dmr_ban">
+        <item>Punjab National Bank</item>
+        <item>State Bank of India</item>
+        <item>Bank of India</item>
+    </string-array>
+
     <string-array name="dmr_hea">
         <item>NTD Hospital</item>
         <item>PCCM Eye Hospital</item>
@@ -60,13 +101,41 @@
         <item>Holy Cross School</item>
     </string-array>
 
-    <string-array name="dmr_ban">
-        <item>Punjab National Bank</item>
-        <item>State Bank of India</item>
-        <item>Bank of India</item>
-    </string-array>
-
     <string-array name="dmr_tem">
         <item>Kali Bari</item>
+    </string-array>
+
+
+
+    <string-array name="ktm_hot">
+
+    </string-array>
+
+    <string-array name="ktm_tra">
+
+    </string-array>
+
+    <string-array name="ktm_res">
+
+    </string-array>
+
+    <string-array name="ktm_sho">
+
+    </string-array>
+
+    <string-array name="ktm_ban">
+
+    </string-array>
+
+    <string-array name="ktm_hea">
+
+    </string-array>
+
+    <string-array name="ktm_edu">
+
+    </string-array>
+
+    <string-array name="ktm_tem">
+
     </string-array>
 </resources>

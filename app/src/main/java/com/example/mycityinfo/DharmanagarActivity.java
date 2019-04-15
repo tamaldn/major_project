@@ -90,9 +90,9 @@ public class DharmanagarActivity extends AppCompatActivity {
         Childlist.put(Headings.get(0),L1);
         Childlist.put(Headings.get(1),L2);
         Childlist.put(Headings.get(2),L3);
-        Childlist.put(Headings.get(3),L5);
-        Childlist.put(Headings.get(4),L6);
-        Childlist.put(Headings.get(5),L7);
+        Childlist.put(Headings.get(3),L4);
+        Childlist.put(Headings.get(4),L5);
+        Childlist.put(Headings.get(5),L6);
         Childlist.put(Headings.get(6),L7);
         Childlist.put(Headings.get(7),L8);
         ListAdapter listAdapter = new ListAdapter(this, Headings, Childlist);
