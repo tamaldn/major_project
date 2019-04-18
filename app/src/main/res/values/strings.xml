@@ -65,16 +65,22 @@
 
 
     <string-array name="dmr_hot">
-        <item>Panchabati</item>
+        <item>Panchabati Hotel</item>
+        <item>Hotel JC Plaza</item>
+        <item>Hotel Raatdin</item>
+        <item>Kiran Guest House</item>
         <item>Hotel Tanusree</item>
     </string-array>
 
     <string-array name="dmr_tra">
         <item>ISBT Dharmanagar</item>
+        <item>Dharmanagar Railway St</item>
+        <item>Old Bus Stand</item>
     </string-array>
 
     <string-array name="dmr_res">
-        <item>Bandhabh Restaurent</item>
+        <item>Bandhab Restaurent</item>
+        <item>Restaurent JC Plaza</item>
     </string-array>
 
     <string-array name="dmr_sho">
@@ -84,9 +90,9 @@
     </string-array>
 
     <string-array name="dmr_ban">
-        <item>Punjab National Bank</item>
         <item>State Bank of India</item>
         <item>Bank of India</item>
+        <item>Punjab National Bank</item>
     </string-array>
 
     <string-array name="dmr_hea">
@@ -102,7 +108,10 @@
     </string-array>
 
     <string-array name="dmr_tem">
-        <item>Kali Bari</item>
+        <item>Town Kali Bari</item>
+        <item>Hari Mandir</item>
+        <item>Gorakhnath Temple</item>
+        <item>Notunpatti Shani Mandir</item>
     </string-array>
 
 
