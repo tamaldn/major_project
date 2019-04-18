@@ -31,35 +31,57 @@
 
 
     <string-array name="bir_hot">
-
+        <item>Hotel Makalu</item>
+        <item>Hotel Vishuwa</item>
+        <item>Hotel Aman</item>
+        <item>Hotel Kailash</item>
+        <item>Hotel Suraj</item>
+        <item>Hotel Country INN</item>
     </string-array>
 
     <string-array name="bir_tra">
-
+        <item>Ghantaghar Bus Stop</item>
+        <item>Kalaiya Bus Stop</item>
     </string-array>
 
     <string-array name="bir_res">
-
+        <item>Anmol Restaurant</item>
+        <item>Himachal Cabin</item>
+        <item>MagicBells Restaurant</item>
+        <item>The Dugout</item>
+        <item>The Old Darbar</item>
     </string-array>
 
     <string-array name="bir_sho">
-
+        <item>Lifestyle</item>
+        <item>V Mart</item>
+        <item>Manyavar</item>
     </string-array>
 
     <string-array name="bir_ban">
-
+        <item>Everest Bank Limited</item>
+        <item>Nepal Rashtra Bank</item>
+        <item>Sanima Bank</item>
+        <item>Siddhartha Bank</item>
     </string-array>
 
     <string-array name="bir_hea">
-
+        <item>Birgunj Healthcare Hospital</item>
+        <item>Narayani Hospital</item>
+        <item>District Health Office</item>
     </string-array>
 
     <string-array name="bir_edu">
-
+        <item>Kadambari Academy</item>
+        <item>Delhi Public School</item>
+        <item>Gurukul Academy</item>
+        <item>St Xavier School</item>
+        <item>Gautam Secondary School</item>
     </string-array>
 
     <string-array name="bir_tem">
-
+        <item>Maisthan Birgunj</item>
+        <item>Prasauni Hanuman Mandir</item>
     </string-array>
 
 
@@ -69,7 +91,6 @@
         <item>Hotel JC Plaza</item>
         <item>Hotel Raatdin</item>
         <item>Kiran Guest House</item>
-        <item>Hotel Tanusree</item>
     </string-array>
 
     <string-array name="dmr_tra">
@@ -80,7 +101,7 @@
 
     <string-array name="dmr_res">
         <item>Bandhab Restaurent</item>
-        <item>Restaurent JC Plaza</item>
+        <item>Restaurant JC Plaza</item>
     </string-array>
 
     <string-array name="dmr_sho">
