@@ -138,34 +138,63 @@
 
 
     <string-array name="ktm_hot">
-
+        <item>Avataar Hotel</item>
+        <item>Grand Hotel Kathmandu</item>
+        <item>Hotel Himalaya</item>
+        <item>Hotel Shangri La</item>
+        <item>Apsara Boutique Hotel</item>
+        <item>Arya Tara Hotel</item>
     </string-array>
 
     <string-array name="ktm_tra">
-
+        <item>Gongabu Bus Station</item>
+        <item>Ratna Park Bus Stop</item>
     </string-array>
 
     <string-array name="ktm_res">
-
+        <item>Blueberry Kitchen</item>
+        <item>Frens Kitchen</item>
+        <item>Fusion Himalaya Restaurant</item>
+        <item>Grill Oregano Restaurant</item>
+        <item>Melrose Restaurant</item>
     </string-array>
 
     <string-array name="ktm_sho">
-
+        <item>Big Mart</item>
+        <item>Civil Mall</item>
+        <item>Adidas</item>
+        <item>Rising Mall</item>
+        <item>Miniso Nepal</item>
+        <item>Lalitpur Mall</item>
     </string-array>
 
     <string-array name="ktm_ban">
-
+        <item>Nepal Investment Bank</item>
+        <item>Kumari Bank LTD</item>
+        <item>Sanima Bank LTD</item>
+        <item>Siddhartha Bank LTD</item>
+        <item>Sunrise Bank</item>
     </string-array>
 
     <string-array name="ktm_hea">
-
+        <item>Norvic International Hospital</item>
+        <item>Kathmandu Hospital</item>
+        <item>Kanti Childrens Hospital</item>
+        <item>Grand International Hospital</item>
+        <item>B and B Hospital</item>
     </string-array>
 
     <string-array name="ktm_edu">
-
+        <item>Galaxy Public School</item>
+        <item>Lincoln School</item>
+        <item>Little Angles</item>
+        <item>Rato Bangla School</item>
     </string-array>
 
     <string-array name="ktm_tem">
-
+        <item>Pashupatinath Temple</item>
+        <item>Swayambhunath Temple</item>
+        <item>Guhyeshwori Temple</item>
+        <item>Bouddhanath Temple</item>
     </string-array>
 </resources>
