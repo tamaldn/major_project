@@ -33,7 +33,6 @@
     <string-array name="bir_hot">
         <item>Hotel Makalu</item>
         <item>Hotel Vishuwa</item>
-        <item>Hotel Aman</item>
         <item>Hotel Kailash</item>
         <item>Hotel Suraj</item>
         <item>Hotel Country INN</item>
@@ -197,4 +196,81 @@
         <item>Guhyeshwori Temple</item>
         <item>Bouddhanath Temple</item>
     </string-array>
+
+    <!--birgunj-->
+    <string name="hotelmakalu">https://www.google.com/maps/place/Hotel+Makalu/@27.0085267,84.8721394,17z/data=!3m1!4b1!4m5!3m4!1s0x399355daaa88cdb7:0x570bd81e07cd8cff!8m2!3d27.0085219!4d84.8743281</string>
+    <string name="hotelvishuwa">https://www.google.com/maps/place/Hotel+Vishuwa/@27.0154005,84.8871278,18z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x3993545cb56ba0bb:0xb22c68aa24a217b0!8m2!3d27.0154005!4d84.8882221</string>
+    <string name="hotelkailash">https://www.google.com/maps/place/Hotel+Kailash/@27.0108159,84.8662949,15z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x3993543e3d35a3eb:0x7f4cf210873b3426!8m2!3d27.0108159!4d84.8739318</string>
+    <string name="hotelsuraj">https://www.google.com/maps/place/Hotel+Suraj/@27.009879,84.8700706,16z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x3993543fd6fa4bf3:0xf9860a0222c61318!8m2!3d27.009879!4d84.874448</string>
+    <string name="hotelcountryinn">https://www.google.com/maps/place/Hotel+Country+INN/@27.0090727,84.8686518,16z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x39935415e54280f3:0x3dec67cecb8455f0!8m2!3d27.0090727!4d84.8730292</string>
+
+    <string name="ghantagharbusstop">https://www.google.com/maps/place/Ghantaghar+Bus+Stop/@27.0091193,84.8555196,14z/data=!4m8!1m2!2m1!1sbus!3m4!1s0x39935440cd30567b:0xefd350196003ce46!8m2!3d27.0159649!4d84.8794806</string>
+    <string name="kalaiyabusstop">https://www.google.com/maps/place/Kalaiya+Bus+Stop/@27.0319258,84.9978438,17z/data=!3m1!4b1!4m5!3m4!1s0x39ecabb67fc80f07:0xe2db901bc8cdc524!8m2!3d27.031921!4d85.0000325</string>
+
+    <string name="anmolrestaurant">https://www.google.com/maps/place/Anmol+Restaurant/@27.0115197,84.8744531,17z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x3993543f949ee703:0x94f53003cb3b53a9!8m2!3d27.0115197!4d84.8766418</string>
+    <string name="himachalcabin">https://www.google.com/maps/place/Himanchal+Cabin/@27.0132917,84.8754304,17z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x3993543f7e16e30d:0xc12f8ed80aebf6c!8m2!3d27.0132917!4d84.8776191</string>
+    <string name="magicbellsrestaurant">https://www.google.com/maps/place/Magic+Bells/@27.013197,84.8729359,17z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x3993543f0194f9a5:0x136bd02ae8c7f730!8m2!3d27.013197!4d84.8751246</string>
+    <string name="thedugout">https://www.google.com/maps/place/The+Dugout/@27.0110036,84.871202,17z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x399355c9a02ab861:0x616cd7563da8e442!8m2!3d27.0110036!4d84.8733907</string>
+    <string name="theolddarbar">https://www.google.com/maps/place/The+Old+Durbar+Family+Restaurant/@27.0141653,84.868513,17z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x3993543c426dee8d:0x5a64bc13832af583!8m2!3d27.0141653!4d84.8707017</string>
+
+    <string name="lifestyle">https://www.google.com/maps/place/Lifestyle/@27.0102983,84.8732914,17z/data=!4m8!1m2!2m1!1sshopping!3m4!1s0x3993543fd6c05427:0xb487526ee772eb62!8m2!3d27.0102983!4d84.8754801</string>
+    <string name="vmart">https://www.google.com/maps/place/V-Mart/@26.9775148,84.8471313,17z/data=!3m1!4b1!4m5!3m4!1s0x399351510382e745:0x3d6516186385f294!8m2!3d26.97751!4d84.84932</string>
+    <string name="manyavar">https://www.google.com/maps/place/Manyavar/@26.5465925,84.0285334,9z/data=!4m8!1m2!2m1!1smanyavar!3m4!1s0x399351543f003599:0x55e38f202e6d39e5!8m2!3d26.9825499!4d84.8521763</string>
+
+    <string name="everestbanklimited">https://www.google.com/maps/place/Everest+Bank+Limited/@27.04134,84.8678468,14z/data=!4m8!1m2!2m1!1sbanks!3m4!1s0x3993568374f252e1:0xf3e5d5d946f50dbe!8m2!3d27.0235714!4d84.8527517</string>
+    <string name="nepalrashtrabank">https://www.google.com/maps/place/Nepal+Rastra+Bank,+Birgunj/@27.0122462,84.8686736,17z/data=!3m1!4b1!4m5!3m4!1s0x3993543cc06f551f:0x7ef60955b5446c94!8m2!3d27.0122414!4d84.8708623</string>
+    <string name="sanimabank">https://www.google.com/maps/place/Sanima+Bank+Ltd./@27.0139741,84.8785891,17z/data=!4m8!1m2!2m1!1sbanks!3m4!1s0x399354411c2fba1b:0xa637a82e9ab2a2a8!8m2!3d27.0139741!4d84.8807778</string>
+    <string name="siddharthabank">https://www.google.com/maps/place/Siddhartha+Bank/@27.0099961,84.8755561,17z/data=!4m8!1m2!2m1!1sbanks!3m4!1s0x3993543fd6753bfb:0xc9f5e0d7c67df919!8m2!3d27.0100487!4d84.8754585</string>
+
+    <string name="birgunjhealthcarehospital">https://www.google.com/maps/place/Birganj+Health+Care+Hospital/@27.044267,84.8967364,17z/data=!3m1!4b1!4m5!3m4!1s0x399355078e77619f:0xcc55b71d1c6fecbe!8m2!3d27.0442622!4d84.8989251</string>
+    <string name="narayanihospital">https://www.google.com/maps/place/Narayani+Sub-Regional+Hospital+(Prasuti+Griha)/@27.0040278,84.8538634,14z/data=!4m8!1m2!2m1!1snarayani+hospital!3m4!1s0x399354114d46f979:0x43f04a2a9e445f81!8m2!3d27.0039085!4d84.8716735</string>
+    <string name="districthealthoffice">https://www.google.com/maps/place/District+Public+Health+Office/@27.0368892,84.8916364,17z/data=!3m1!4b1!4m5!3m4!1s0x399355ab771da2b7:0x93b800419c9a0b14!8m2!3d27.0368844!4d84.8938251</string>
+
+    <string name="kadambariacademy">https://www.google.com/maps/place/Kadambari+Academy/@27.0369128,84.8850703,15z/data=!4m8!1m2!2m1!1sschools!3m4!1s0x3993544e90000001:0xb256e4f3d1c7d1fc!8m2!3d27.0271987!4d84.8848032</string>
+    <string name="delhipublicschool">https://www.google.com/maps/place/Delhi+Public+School/@27.0527294,84.8973725,15z/data=!4m8!1m2!2m1!1sschools!3m4!1s0x3993550c2bd3d8f3:0xdf38393213bf351!8m2!3d27.0527294!4d84.9061272</string>
+    <string name="gurukulacademy">https://www.google.com/maps/place/Gurukul+Academy/@27.0369128,84.8850703,15z/data=!4m8!1m2!2m1!1sschools!3m4!1s0x399355acadd0c8af:0x769eaefc1113ff87!8m2!3d27.0344302!4d84.8927458</string>
+    <string name="stxavierschool">https://www.google.com/maps/place/St.+Xaviers+Higher+Secondary+School/@27.0229517,84.8737166,15z/data=!4m8!1m2!2m1!1sschools!3m4!1s0x39935448b16e56cd:0x214c556454a86c8!8m2!3d27.0229517!4d84.8824713</string>
+    <string name="gautamsecondaryschool">https://www.google.com/maps/place/Gautam+Secondary+School/@27.0369128,84.8850703,15z/data=!4m8!1m2!2m1!1sschools!3m4!1s0x39935453cfddec75:0x564be26b8e2f2339!8m2!3d27.0289264!4d84.89123</string>
+
+    <string name="maisthanbirgunj">https://www.google.com/maps/place/Mai+asthan+Mandir/@27.0469614,84.8927444,13z/data=!4m8!1m2!2m1!1stemples!3m4!1s0x399354407ba82feb:0xc9fedf57adb2f50e!8m2!3d27.0125036!4d84.8781254</string>
+    <string name="prasaunihanumanmandir">https://www.google.com/maps/place/Prasauni+Hanuman+Mandir/@27.0326548,84.9242108,17z/data=!3m1!4b1!4m5!3m4!1s0x399354d8e340ec71:0x33b5b966137fad76!8m2!3d27.03265!4d84.9263995</string>
+
+
+    <string name="hotelmakalun">https://www.google.com/maps/dir//Hotel+Makalu,+Birgunj+44300,+Nepal/@27.0085267,84.8721394,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399355daaa88cdb7:0x570bd81e07cd8cff!2m2!1d84.8743281!2d27.0085219!3e0</string>
+    <string name="hotelvishuwan">https://www.google.com/maps/dir//Hotel+Vishuwa,+By-Pass+Road,+Vishuwa-18,+Birgunj+44400,+Nepal/@27.0154005,84.8871278,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993545cb56ba0bb:0xb22c68aa24a217b0!2m2!1d84.8882221!2d27.0154005!3e0</string>
+    <string name="hotelkailashn">https://www.google.com/maps/dir//Hotel+Kailash,+Birgunj+44300,+Nepal/@27.0108159,84.8662949,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543e3d35a3eb:0x7f4cf210873b3426!2m2!1d84.8739318!2d27.0108159!3e0</string>
+    <string name="hotelsurajn">https://www.google.com/maps/dir//Hotel+Suraj,+Main+Road,+Adarshnagar,+Birgunj+-+7,+Birgunj+44033,+Nepal/@27.009879,84.8700706,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543fd6fa4bf3:0xf9860a0222c61318!2m2!1d84.874448!2d27.009879!3e0</string>
+    <string name="hotelcountryinnn">https://www.google.com/maps/dir//Hotel+Country+INN,+44300,+Birgunj+44300,+Nepal/@27.0090727,84.8686518,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39935415e54280f3:0x3dec67cecb8455f0!2m2!1d84.8730292!2d27.0090727!3e0</string>
+
+    <string name="ghantagharbusstopn">https://www.google.com/maps/dir//Ghantaghar+Bus+Stop,+Tribhuvan+Hwy,+Birgunj+44300,+Nepal/@27.0091193,84.8555196,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39935440cd30567b:0xefd350196003ce46!2m2!1d84.8794806!2d27.0159649!3e0</string>
+    <string name="kalaiyabusstopn">https://www.google.com/maps/dir//Kalaiya+Bus+Stop,+Birgunj-Kalaiya+Road,+Kalaiya+44400,+Nepal/@27.0319258,84.9978438,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39ecabb67fc80f07:0xe2db901bc8cdc524!2m2!1d85.0000325!2d27.031921!3e0</string>
+
+    <string name="anmolrestaurantn">https://www.google.com/maps/dir//Anmol+Restaurant,+H02,+Birgunj+44300,+Nepal/@27.0115197,84.8744531,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543f949ee703:0x94f53003cb3b53a9!2m2!1d84.8766418!2d27.0115197!3e0</string>
+    <string name="himachalcabinn">https://www.google.com/maps/dir//Himanchal+Cabin,+H02,+Birgunj+44300,+Nepal/@27.0132917,84.8754304,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543f7e16e30d:0xc12f8ed80aebf6c!2m2!1d84.8776191!2d27.0132917!3e0</string>
+    <string name="magicbellsrestaurantn">https://www.google.com/maps/dir//Magic+Bells,+Birgunj+44300,+Nepal/@27.013197,84.8729359,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543f0194f9a5:0x136bd02ae8c7f730!2m2!1d84.8751246!2d27.013197!3e0</string>
+    <string name="thedugoutn">https://www.google.com/maps/dir//The+Dugout,+Birgunj+44300,+Nepal/@27.0110036,84.871202,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399355c9a02ab861:0x616cd7563da8e442!2m2!1d84.8733907!2d27.0110036!3e0</string>
+    <string name="theolddarbarn">https://www.google.com/maps/dir//The+Old+Durbar+Family+Restaurant,+44300,+Birgunj+44300,+Nepal/@27.0141653,84.868513,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543c426dee8d:0x5a64bc13832af583!2m2!1d84.8707017!2d27.0141653!3e0</string>
+
+    <string name="lifestylen">https://www.google.com/maps/dir//Lifestyle,+Birgunj+44300,+Nepal/@27.0102983,84.8732914,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543fd6c05427:0xb487526ee772eb62!2m2!1d84.8754801!2d27.0102983!3e0</string>
+    <string name="vmartn">https://www.google.com/maps/dir//V-Mart,+Nahar+Chowk+Koreiya+Tola,+Bihar+845305/@26.9775148,84.8471313,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399351510382e745:0x3d6516186385f294!2m2!1d84.84932!2d26.97751!3e0</string>
+    <string name="manyavarn">https://www.google.com/maps/dir//Manyavar,+Sikaria+Complex,+Next+to+the+Raymond+Shop,+Main+Road,+Noneadih,+Raxaul,+Bihar+845305/@26.5465925,84.0285334,9z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399351543f003599:0x55e38f202e6d39e5!2m2!1d84.8521763!2d26.9825499!3e0</string>
+
+    <string name="everestbanklimitedn">https://www.google.com/maps/dir//Everest+Bank+Limited,+Nepal,+Birgunj+44300,+Nepal/@27.04134,84.8678468,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993568374f252e1:0xf3e5d5d946f50dbe!2m2!1d84.8527517!2d27.0235714!3e0</string>
+    <string name="nepalrashtrabankn">https://www.google.com/maps/dir//Nepal+Rastra+Bank,+Birgunj,+Birgunj+44300,+Nepal/@27.0122462,84.8686736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543cc06f551f:0x7ef60955b5446c94!2m2!1d84.8708623!2d27.0122414!3e0</string>
+    <string name="sanimabankn">https://www.google.com/maps/dir//Sanima+Bank+Ltd.,+Link+Rd,+Birgunj+44300,+Nepal/@27.0139741,84.8785891,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399354411c2fba1b:0xa637a82e9ab2a2a8!2m2!1d84.8807778!2d27.0139741!3e0</string>
+    <string name="siddharthabankn">https://www.google.com/maps/dir//Siddhartha+Bank,+Adarshnagar+Swimming+Pool,+Birgunj+44300,+Nepal/@27.0122557,84.8686736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993543fd6753bfb:0xc9f5e0d7c67df919!2m2!1d84.8754585!2d27.0100487!3e0</string>
+
+    <string name="birgunjhealthcarehospitaln">https://www.google.com/maps/dir//Birganj+Health+Care+Hospital,+Tribhuvan+Rajpath,+Birgunj,+Nepal/@27.044267,84.8967364,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399355078e77619f:0xcc55b71d1c6fecbe!2m2!1d84.8989251!2d27.0442622!3e0</string>
+    <string name="narayanihospitaln">https://www.google.com/maps/dir//Narayani+Sub-Regional+Hospital+(Prasuti+Griha),+Tribhuvan+Hwy,+Birgunj+44300,+Nepal/@27.0040278,84.8538634,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399354114d46f979:0x43f04a2a9e445f81!2m2!1d84.8716735!2d27.0039085!3e0</string>
+    <string name="districthealthofficen">https://www.google.com/maps/dir//District+Public+Health+Office,+Tribhuvan+Hwy,+Birgunj+44400,+Nepal/@27.0368892,84.8916364,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399355ab771da2b7:0x93b800419c9a0b14!2m2!1d84.8938251!2d27.0368844!3e0</string>
+
+    <string name="kadambariacademyn">https://www.google.com/maps/dir//Kadambari+Academy,+Birgunj+44300,+Nepal/@27.0369128,84.8850703,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993544e90000001:0xb256e4f3d1c7d1fc!2m2!1d84.8848032!2d27.0271987!3e0</string>
+    <string name="delhipublicschooln">https://www.google.com/maps/dir//Delhi+Public+School,+Birgunj,+%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AD%E0%A5%81%E0%A4%B5%E0%A4%A8+%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A5,+Lipanimal+44300,+Nepal/@27.0527294,84.8973725,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3993550c2bd3d8f3:0xdf38393213bf351!2m2!1d84.9061272!2d27.0527294!3e0</string>
+    <string name="gurukulacademyn">https://www.google.com/maps/dir//Gurukul+Academy,+Birgunj+44400,+Nepal/@27.0369128,84.8850703,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399355acadd0c8af:0x769eaefc1113ff87!2m2!1d84.8927458!2d27.0344302!3e0</string>
+    <string name="stxavierschooln">https://www.google.com/maps/dir//St.+Xaviers+Higher+Secondary+School,+Birgunj+44300,+Nepal/@27.0229517,84.8737166,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39935448b16e56cd:0x214c556454a86c8!2m2!1d84.8824713!2d27.0229517!3e0</string>
+    <string name="gautamsecondaryschooln">https://www.google.com/maps/dir//Gautam+Secondary+School,+Birgunj+44400,+Nepal/@27.0369128,84.8850703,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39935453cfddec75:0x564be26b8e2f2339!2m2!1d84.89123!2d27.0289264!3e0</string>
+
+    <string name="maisthanbirgunjn">https://www.google.com/maps/dir//Mai+asthan+Mandir,+Street+Number+2,+Birgunj+44300,+Nepal/@27.0469614,84.8927444,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399354407ba82feb:0xc9fedf57adb2f50e!2m2!1d84.8781254!2d27.0125036!3e0</string>
+    <string name="prasaunihanumanmandirn">https://www.google.com/maps/dir//Prasauni+Hanuman+Mandir,+Prasauni+44400,+Nepal/@27.0326548,84.9242108,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399354d8e340ec71:0x33b5b966137fad76!2m2!1d84.9263995!2d27.03265!3e0</string>
+
 </resources>

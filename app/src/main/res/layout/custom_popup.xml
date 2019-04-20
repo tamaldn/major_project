@@ -46,7 +46,6 @@
         android:layout_height="35dp"
         android:background="#80ffffff"
         android:gravity="center"
-        android:onClick="dis"
         android:text="@string/x"
         android:textColor="@color/black"
         android:textSize="25sp"
@@ -73,7 +72,7 @@
         tools:ignore="ContentDescription"/>
 
     <ImageButton
-        android:id="@+id/imgs"
+        android:id="@+id/navig"
         android:layout_width="100dp"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,9 +80,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img"
-        android:src="@drawable/photos"
+        android:src="@drawable/navig"
         android:scaleType="fitXY"
-        android:padding="17dp"
+        android:padding="15dp"
+        android:paddingStart="17dp"
+        android:paddingEnd="17dp"
         android:background="@drawable/popup_btn_background"
         tools:ignore="ContentDescription" />
 

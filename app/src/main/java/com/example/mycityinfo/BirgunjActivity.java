@@ -27,17 +27,17 @@ public class BirgunjActivity extends AppCompatActivity {
         setContentView(R.layout.birgunj);
 
         myDialog = new Dialog(this);
-        expandableListView = (ExpandableListView)findViewById(R.id.expandablelistview);
-        final List<String> Headings = new ArrayList<String>();
-        List<String> L1 = new ArrayList<String>();
-        List<String> L2 = new ArrayList<String>();
-        List<String> L3 = new ArrayList<String>();
-        List<String> L4 = new ArrayList<String>();
-        List<String> L5 = new ArrayList<String>();
-        List<String> L6 = new ArrayList<String>();
-        List<String> L7 = new ArrayList<String>();
-        List<String> L8 = new ArrayList<String>();
-        final HashMap<String,List<String>> Childlist = new HashMap<String,List<String>>();
+        expandableListView = findViewById(R.id.expandablelistview);
+        final List<String> Headings = new ArrayList<>();
+        List<String> L1 = new ArrayList<>();
+        List<String> L2 = new ArrayList<>();
+        List<String> L3 = new ArrayList<>();
+        List<String> L4 = new ArrayList<>();
+        List<String> L5 = new ArrayList<>();
+        List<String> L6 = new ArrayList<>();
+        List<String> L7 = new ArrayList<>();
+        List<String> L8 = new ArrayList<>();
+        final HashMap<String,List<String>> Childlist = new HashMap<>();
         String heading_items[] = getResources().getStringArray(R.array.header_titles);
         String l1[] = getResources().getStringArray(R.array.bir_hot);
         String l2[] = getResources().getStringArray(R.array.bir_tra);
@@ -118,16 +118,30 @@ public class BirgunjActivity extends AppCompatActivity {
                 int imgres = getResources().getIdentifier(idname,"drawable", getPackageName());
                 imageView.setImageResource(imgres);
 
+                final int locid = getResources().getIdentifier(idname,"string",getPackageName());
+                final String locat = getString(locid);
                 ImageButton loc = myDialog.findViewById(R.id.loc);
                 loc.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent i = new Intent(Intent.ACTION_VIEW);
-                        i.setData(Uri.parse("https://www.google.com/maps/dir//District+Hospital,+North+Tripura,+Chandrapur,+Dharmanagar,+Tripura+799251/@24.3886794,92.1591341,17.42z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc77c92b9cb:0x5104dc9375ae5e91!2m2!1d92.1578064!2d24.3898786!3e0"));
+                        i.setData(Uri.parse(locat));
                         startActivity(i);
                     }
                 });
 
+                String navig = idname+"n";
+                final int navid = getResources().getIdentifier(navig,"string",getPackageName());
+                final String navigat = getString(navid);
+                ImageButton nav = myDialog.findViewById(R.id.navig);
+                nav.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(Intent.ACTION_VIEW);
+                        i.setData(Uri.parse(navigat));
+                        startActivity(i);
+                    }
+                });
                 return false;
             }
         });
