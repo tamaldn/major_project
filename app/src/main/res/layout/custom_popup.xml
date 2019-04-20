@@ -57,6 +57,7 @@
         app:layout_constraintVertical_bias="0" />
 
     <ImageButton
+        android:longClickable="true"
         android:id="@+id/loc"
         android:layout_width="100dp"
         android:layout_height="80dp"
@@ -68,10 +69,12 @@
         android:src="@drawable/location"
         android:scaleType="fitXY"
         android:padding="10dp"
+        android:tooltipText="@string/loc"
         android:background="@drawable/popup_btn_background"
-        tools:ignore="ContentDescription"/>
+        android:contentDescription="@string/loc"/>
 
     <ImageButton
+        android:longClickable="true"
         android:id="@+id/navig"
         android:layout_width="100dp"
         android:layout_height="80dp"
@@ -86,9 +89,11 @@
         android:paddingStart="17dp"
         android:paddingEnd="17dp"
         android:background="@drawable/popup_btn_background"
-        tools:ignore="ContentDescription" />
+        android:tooltipText="@string/dir"
+        android:contentDescription="@string/dir"/>
 
     <ImageButton
+        android:longClickable="true"
         android:id="@+id/info"
         android:layout_width="100dp"
         android:layout_height="80dp"
@@ -101,8 +106,9 @@
         android:scaleType="fitXY"
         android:padding="17dp"
         android:paddingEnd="25dp"
+        android:tooltipText="@string/info"
         android:paddingStart="25dp"
         android:background="@drawable/popup_btn_background"
-        tools:ignore="ContentDescription"/>
+        android:contentDescription="@string/info"/>
 
 </android.support.constraint.ConstraintLayout>

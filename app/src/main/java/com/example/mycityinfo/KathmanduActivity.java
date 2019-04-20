@@ -117,16 +117,30 @@ public class KathmanduActivity extends AppCompatActivity {
                 int imgres = getResources().getIdentifier(idname,"drawable", getPackageName());
                 imageView.setImageResource(imgres);
 
+                final int locid = getResources().getIdentifier(idname,"string",getPackageName());
+                final String locat = getString(locid);
                 ImageButton loc = myDialog.findViewById(R.id.loc);
                 loc.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent i = new Intent(Intent.ACTION_VIEW);
-                        i.setData(Uri.parse("https://www.google.com/maps/dir//District+Hospital,+North+Tripura,+Chandrapur,+Dharmanagar,+Tripura+799251/@24.3886794,92.1591341,17.42z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc77c92b9cb:0x5104dc9375ae5e91!2m2!1d92.1578064!2d24.3898786!3e0"));
+                        i.setData(Uri.parse(locat));
                         startActivity(i);
                     }
                 });
 
+                String navig = idname+"n";
+                final int navid = getResources().getIdentifier(navig,"string",getPackageName());
+                final String navigat = getString(navid);
+                ImageButton nav = myDialog.findViewById(R.id.navig);
+                nav.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(Intent.ACTION_VIEW);
+                        i.setData(Uri.parse(navigat));
+                        startActivity(i);
+                    }
+                });
                 return false;
             }
         });

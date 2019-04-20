@@ -17,6 +17,9 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="register2">New User? Register here</string>
     <string name="registered">Already Registered? Login here</string>
+    <string name="loc">Show location on Google map</string>
+    <string name="dir">Get Directions</string>
+    <string name="info">Show information</string>
 
     <string-array name="header_titles">
         <item>Hotels</item>
@@ -99,7 +102,7 @@
     </string-array>
 
     <string-array name="dmr_res">
-        <item>Bandhab Restaurent</item>
+        <item>Bandhab Restaurant</item>
         <item>Restaurant JC Plaza</item>
     </string-array>
 
@@ -272,5 +275,79 @@
 
     <string name="maisthanbirgunjn">https://www.google.com/maps/dir//Mai+asthan+Mandir,+Street+Number+2,+Birgunj+44300,+Nepal/@27.0469614,84.8927444,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399354407ba82feb:0xc9fedf57adb2f50e!2m2!1d84.8781254!2d27.0125036!3e0</string>
     <string name="prasaunihanumanmandirn">https://www.google.com/maps/dir//Prasauni+Hanuman+Mandir,+Prasauni+44400,+Nepal/@27.0326548,84.9242108,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x399354d8e340ec71:0x33b5b966137fad76!2m2!1d84.9263995!2d27.03265!3e0</string>
+
+
+
+
+    <!--dharmanagar-->
+    <string name="panchabatihotel">https://www.google.com/maps/place/Hotel+Panchabati/@24.3787369,92.161431,15z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x3751ece82caa9ef7:0x2db0e71d46161b2f!8m2!3d24.3811812!4d92.165004</string>
+    <string name="hoteljcplaza">https://www.google.com/maps/place/Hotel+J+C+Plaza/@24.3787369,92.161431,15z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x3751ed6cf1d965bf:0x6b6e478f3866f8b7!8m2!3d24.3811378!4d92.1651589</string>
+    <string name="hotelraatdin">https://www.google.com/maps/place/Hotel+Raatdin+%E0%A6%B9%E0%A7%8B%E0%A6%9F%E0%A7%87%E0%A6%B2+%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A6%E0%A6%BF%E0%A6%A8/@24.3787369,92.161431,15z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x3751ecc2f0189339:0xb02011ba13489b50!8m2!3d24.3804855!4d92.162874</string>
+    <string name="kiranguesthouse">https://www.google.com/maps/place/Kiran+Guest+House/@24.3787369,92.161431,15z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x3751ece9dc203a51:0x41c5f779687cae41!8m2!3d24.38236!4d92.164986</string>
+
+    <string name="isbtdharmanagar">https://www.google.com/maps/place/New+Motor+Stand/@24.3756455,92.1631532,19.32z/data=!4m5!3m4!1s0x3751ecdd0c5eef3d:0xa03d3d3a402e7c16!8m2!3d24.3757148!4d92.163278</string>
+    <string name="dharmanagarrailwayst">https://www.google.com/maps/place/Dharmanagar/@24.3695617,92.1697264,18.05z/data=!4m5!3m4!1s0x3751ece3dbad0f2f:0x3c020ef7dbf2e09!8m2!3d24.369992!4d92.16994</string>
+    <string name="oldbusstand">https://www.google.com/maps/place/Dharmanagar+Bus+Stop/@24.3758377,92.1630972,19.32z/data=!4m5!3m4!1s0x3751ecdd12e4d6b7:0x3bc07fce632e434b!8m2!3d24.3761289!4d92.1633303</string>
+
+    <string name="bandhabrestaurant">https://www.google.com/maps/place/Bandhab+Restaurant+%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%AC+%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F/@24.3804771,92.1634237,18.05z/data=!4m5!3m4!1s0x3751ecc26345fdc5:0xc5c07960b1f33b1d!8m2!3d24.3813412!4d92.1639305</string>
+    <string name="restaurantjcplaza">https://www.google.com/maps/place/Restaurant+j.c.plaza/@24.3811351,92.1630051,17z/data=!3m1!4b1!4m5!3m4!1s0x3751edc07996c35f:0x64442ae6eb293dd0!8m2!3d24.3811302!4d92.1651938</string>
+
+    <string name="citylifedharmanagar">https://www.google.com/maps/place/City+Life/@24.3813296,92.1647273,19z/data=!4m14!1m8!2m7!1sshopping!3m5!1sshopping!2s24.381152,+92.165279!4m2!1d92.1652787!2d24.3811518!3m4!1s0x0:0xeb90b3bdd959cd4c!8m2!3d24.3811393!4d92.1651846</string>
+    <string name="ranaplaza">https://www.google.com/maps/place/Rana+Plaza/@24.3803866,92.163759,19z/data=!4m14!1m8!2m7!1sshopping!3m5!1sshopping!2s24.381152,+92.165279!4m2!1d92.1652787!2d24.3811518!3m4!1s0x0:0xbbe62af82e9be37d!8m2!3d24.3804869!4d92.1636559</string>
+    <string name="vishalmegamart">https://www.google.com/maps/place/VISHAL+Mega+Mart/@24.3852408,92.1677823,19z/data=!4m14!1m8!2m7!1sshopping!3m5!1sshopping!2s24.381152,+92.165279!4m2!1d92.1652787!2d24.3811518!3m4!1s0x0:0x6cdf8a78dec3c147!8m2!3d24.3852536!4d92.1675256</string>
+
+    <string name="statebankofindia">https://www.google.com/maps/place/State+Bank+of+India/@24.377044,92.160637,17.58z/data=!4m14!1m8!2m7!1sshopping!3m5!1sshopping!2s24.381152,+92.165279!4m2!1d92.1652787!2d24.3811518!3m4!1s0x3751ecdccc63875d:0x657faa9a271ed119!8m2!3d24.3779973!4d92.1613877</string>
+    <string name="bankofindia">https://www.google.com/maps/place/Bank+of+India/@24.3831502,92.1652166,18z/data=!4m5!3m4!1s0x3751ece9ece61b1d:0x5f8d535702908f13!8m2!3d24.3831502!4d92.1658764</string>
+    <string name="punjabnationalbank">https://www.google.com/maps/place/Punjab+National+Bank+-+Dharmanagar+Branch/@24.3788102,92.1631171,18z/data=!4m5!3m4!1s0x3751ecc2afa7621d:0xa2a0dabfc43ab0fc!8m2!3d24.3788102!4d92.1642114</string>
+
+    <string name="ntdhospital">https://www.google.com/maps/place/District+Hospital,+North+Tripura/@24.389878,92.1492527,15z/data=!4m5!3m4!1s0x3751ecc77c92b9cb:0x5104dc9375ae5e91!8m2!3d24.389878!4d92.157805</string>
+    <string name="pccmeyehospital">https://www.google.com/maps/place/P.C+Chatterjee+Memorial+Eye+Hospital/@24.379701,92.1663042,18.95z/data=!4m5!3m4!1s0x3751ece8434b7399:0xa8f8e7e8519e78e1!8m2!3d24.3803927!4d92.1666254</string>
+    <string name="sanicherraphc">https://www.google.com/maps/place/Sanicherra+P.H.C/@24.3785178,92.2286594,17z/data=!3m1!4b1!4m5!3m4!1s0x3751ee9b2108e969:0xfd13bbd5dddbdfd!8m2!3d24.3785129!4d92.2308481</string>
+
+    <string name="dnvschool">https://www.google.com/maps/place/DNV+School+(%E0%A6%A6%E0%A7%80%E0%A6%A8%E0%A6%A8%E0%A6%BE%E0%A6%A5+%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A6%BF+%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0)/@24.3806975,92.164135,17z/data=!3m1!4b1!4m5!3m4!1s0x3751ece84eb89e59:0x4febf65164f12deb!8m2!3d24.3806926!4d92.1663237</string>
+    <string name="bbischool">https://www.google.com/maps/place/Bir+Bikram+Institution/@24.3819257,92.1604092,18z/data=!3m1!4b1!4m5!3m4!1s0x3751ecc3bbf09135:0x7bc125a4a1d66e16!8m2!3d24.3819239!4d92.161202</string>
+    <string name="holycrossschool">https://www.google.com/maps/place/Holy+Cross+Convent+School/@24.3879652,92.1490579,17z/data=!3m1!4b1!4m5!3m4!1s0x3751ecc9a49ae865:0x33fc4214cde454e0!8m2!3d24.3879603!4d92.1512466</string>
+
+    <string name="townkalibari">https://www.google.com/maps/place/Town+Kalibari/@24.3879893,92.1424918,15z/data=!4m8!1m2!2m1!1stemples!3m4!1s0x3751ecc2e64f5e71:0x690163371d2307f8!8m2!3d24.3800528!4d92.162757</string>
+    <string name="harimandir">https://www.google.com/maps/place/Hari+Mandir/@24.3880279,92.1424918,15z/data=!4m8!1m2!2m1!1stemples!3m4!1s0x3751ecc2c7e5847b:0x6d9da8e7f3bebce!8m2!3d24.3789898!4d92.1633947</string>
+    <string name="gorakhnathtemple">https://www.google.com/maps/place/Gorakhnath+Temple/@24.3718715,92.1571944,17z/data=!3m1!4b1!4m5!3m4!1s0x3751ecd951405093:0xfd21e71484d57fdc!8m2!3d24.3718666!4d92.1593831</string>
+    <string name="notunpattishanimandir">https://www.google.com/maps/place/Natunpatty+shani+mandir/@24.3841064,92.1635781,17z/data=!4m12!1m6!3m5!1s0x3751ecd951405093:0xfd21e71484d57fdc!2sGorakhnath+Temple!8m2!3d24.3718666!4d92.1593831!3m4!1s0x3751ecea3f91470f:0xfe9d3b4ac23c075a!8m2!3d24.3855242!4d92.1660011</string>
+
+
+
+
+    <string name="panchabatihoteln">https://www.google.com/maps/dir//Hotel+Panchabati,+DNV+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3787369,92.161431,15z/data=!4m16!1m6!3m5!1s0x3751ece82caa9ef7:0x2db0e71d46161b2f!2sHotel+Panchabati!8m2!3d24.3811812!4d92.165004!4m8!1m0!1m5!1m1!1s0x3751ece82caa9ef7:0x2db0e71d46161b2f!2m2!1d92.165004!2d24.3811812!3e0</string>
+    <string name="hoteljcplazan">https://www.google.com/maps/dir//Hotel+J+C+Plaza,+DNV+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3787369,92.161431,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ed6cf1d965bf:0x6b6e478f3866f8b7!2m2!1d92.1651589!2d24.3811378!3e0</string>
+    <string name="hotelraatdinn">https://www.google.com/maps/dir//Hotel+Raatdin+%E0%A6%B9%E0%A7%8B%E0%A6%9F%E0%A7%87%E0%A6%B2+%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A6%E0%A6%BF%E0%A6%A8,+Kalibari+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799253/@24.3787369,92.161431,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc2f0189339:0xb02011ba13489b50!2m2!1d92.162874!2d24.3804855!3e0</string>
+    <string name="kiranguesthousen">https://www.google.com/maps/dir//Kiran+Guest+House,+Kurti+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3787369,92.161431,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ece9dc203a51:0x41c5f779687cae41!2m2!1d92.164986!2d24.38236!3e0</string>
+
+    <string name="isbtdharmanagarn">https://www.google.com/maps/dir//New+Motor+Stand,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799253/@24.3756455,92.1631532,19.32z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecdd0c5eef3d:0xa03d3d3a402e7c16!2m2!1d92.163278!2d24.3757148!3e0</string>
+    <string name="dharmanagarrailwaystn">https://www.google.com/maps/dir//Dharmanagar,+New+Bazar,+Padmapur,+Dharmanagar,+Tripura+799250/@24.3695617,92.1697264,18.05z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ece3dbad0f2f:0x3c020ef7dbf2e09!2m2!1d92.16994!2d24.369992!3e0</string>
+    <string name="oldbusstandn">https://www.google.com/maps/dir//Dharmanagar+Bus+Stop,+Rajbari+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799253/@24.3758377,92.1630972,19.32z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecdd12e4d6b7:0x3bc07fce632e434b!2m2!1d92.1633303!2d24.3761289!3e0</string>
+
+    <string name="bandhabrestaurantn">https://www.google.com/maps/dir//Bandhab+Restaurant+%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%AC+%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F,+Kalibari+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799253/@24.3804771,92.1634237,18.05z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc26345fdc5:0xc5c07960b1f33b1d!2m2!1d92.1639302!2d24.3813415!3e0</string>
+    <string name="restaurantjcplazan">https://www.google.com/maps/place/Restaurant+j.c.plaza/@24.3811351,92.1630051,17z/data=!3m1!4b1!4m5!3m4!1s0x3751edc07996c35f:0x64442ae6eb293dd0!8m2!3d24.3811302!4d92.1651938</string>
+
+    <string name="citylifedharmanagarn">https://www.google.com/maps/dir//City+Life,+DNV+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3813296,92.1647273,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ed06f4584d19:0xeb90b3bdd959cd4c!2m2!1d92.1651845!2d24.3811393!3e0</string>
+    <string name="ranaplazan">https://www.google.com/maps/dir//Rana+Plaza,+V.K.+Road,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3803866,92.163759,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc28e700f81:0xbbe62af82e9be37d!2m2!1d92.1636558!2d24.380487!3e0</string>
+    <string name="vishalmegamartn">https://www.google.com/maps/dir//VISHAL+Mega+Mart,+Kadamtala+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3852408,92.1677823,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751edd4d1b70bb5:0x6cdf8a78dec3c147!2m2!1d92.1675256!2d24.3852536!3e0</string>
+
+    <string name="statebankofindian">https://www.google.com/maps/dir//State+Bank+of+India,+Central+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.377044,92.160637,17.58z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecdccc63875d:0x657faa9a271ed119!2m2!1d92.1613874!2d24.3779973!3e0</string>
+    <string name="bankofindian">https://www.google.com/maps/dir//Bank+of+India,+NAYAPARA,+Kadamtala+Road,+Power+House+Quater+Complex,+North+Tripura,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3831502,92.1652166,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ece9ece61b1d:0x5f8d535702908f13!2m2!1d92.1658764!2d24.3831502!3e0</string>
+    <string name="punjabnationalbankn">https://www.google.com/maps/dir//Punjab+National+Bank+-+Dharmanagar+Branch,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799253/@24.3788102,92.1631171,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc2afa7621d:0xa2a0dabfc43ab0fc!2m2!1d92.1642114!2d24.3788105!3e0</string>
+
+    <string name="ntdhospitaln">https://www.google.com/maps/dir//District+Hospital,+North+Tripura,+Chandrapur,+Dharmanagar,+Tripura+799251/@24.389878,92.1492527,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc77c92b9cb:0x5104dc9375ae5e91!2m2!1d92.1578064!2d24.3898786!3e0</string>
+    <string name="pccmeyehospitaln">https://www.google.com/maps/dir//P.C+Chatterjee+Memorial+Eye+Hospital,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.379701,92.1663042,18.95z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ece8434b7399:0xa8f8e7e8519e78e1!2m2!1d92.1666251!2d24.3803924!3e0</string>
+    <string name="sanicherraphcn">https://www.google.com/maps/dir//Sanicherra+P.H.C,+Dharmanagar,+Tripura+799262/@24.3785178,92.2286594,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ee9b2108e969:0xfd13bbd5dddbdfd!2m2!1d92.2308481!2d24.3785129!3e0</string>
+
+    <string name="dnvschooln">https://www.google.com/maps/place/DNV+School+(%E0%A6%A6%E0%A7%80%E0%A6%A8%E0%A6%A8%E0%A6%BE%E0%A6%A5+%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A6%BF+%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0)/@24.3806975,92.164135,17z/data=!3m1!4b1!4m5!3m4!1s0x3751ece84eb89e59:0x4febf65164f12deb!8m2!3d24.3806926!4d92.1663237</string>
+    <string name="bbischooln">https://www.google.com/maps/dir//Bir+Bikram+Institution,+Near+Power+House+Quater+Complex+Thane+Road,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3819257,92.1604092,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc3bbf09135:0x7bc125a4a1d66e16!2m2!1d92.161202!2d24.3819239!3e0</string>
+    <string name="holycrossschooln">https://www.google.com/maps/dir//Holy+Cross+Convent+School,+Dharmanagar,+Tripura+799251/@24.3879652,92.1490579,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc9a49ae865:0x33fc4214cde454e0!2m2!1d92.1512466!2d24.3879603!3e0</string>
+
+    <string name="townkalibarin">https://www.google.com/maps/dir//Town+Kalibari,+Kalibari+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3879893,92.1424918,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc2e64f5e71:0x690163371d2307f8!2m2!1d92.162757!2d24.3800528!3e0</string>
+    <string name="harimandirn">https://www.google.com/maps/dir//Hari+Mandir,+Central+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799253/@24.3880279,92.1424918,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc2c7e5847b:0x6d9da8e7f3bebce!2m2!1d92.1633947!2d24.3789898!3e0</string>
+    <string name="gorakhnathtemplen">https://www.google.com/maps/dir//Gorakhnath+Temple,+Padmapur,+Dharmanagar,+Tripura+799253/@24.3718715,92.1571944,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecd951405093:0xfd21e71484d57fdc!2m2!1d92.1593831!2d24.3718666!3e0</string>
+    <string name="notunpattishanimandirn">https://www.google.com/maps/dir//Natunpatty+shani+mandir,+Notun+Patti+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799251/@24.3841064,92.1635781,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecea3f91470f:0xfe9d3b4ac23c075a!2m2!1d92.1660008!2d24.3855239!3e0</string>
+
 
 </resources>
