@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="40dp"
-    android:background="#e0e0f8"
+    android:background="#40000000"
     >
 
     <TextView
@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:text="@string/hello_world"
         android:textSize="20sp"
-        android:textColor="#cc2a0a12"
+        android:textColor="#ffffff"
         android:fontFamily="@font/biorhyme"
         android:gravity="top"
         android:paddingEnd="0dp"

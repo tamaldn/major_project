@@ -314,8 +314,6 @@
     <string name="notunpattishanimandir">https://www.google.com/maps/place/Natunpatty+shani+mandir/@24.3841064,92.1635781,17z/data=!4m12!1m6!3m5!1s0x3751ecd951405093:0xfd21e71484d57fdc!2sGorakhnath+Temple!8m2!3d24.3718666!4d92.1593831!3m4!1s0x3751ecea3f91470f:0xfe9d3b4ac23c075a!8m2!3d24.3855242!4d92.1660011</string>
 
 
-
-
     <string name="panchabatihoteln">https://www.google.com/maps/dir//Hotel+Panchabati,+DNV+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3787369,92.161431,15z/data=!4m16!1m6!3m5!1s0x3751ece82caa9ef7:0x2db0e71d46161b2f!2sHotel+Panchabati!8m2!3d24.3811812!4d92.165004!4m8!1m0!1m5!1m1!1s0x3751ece82caa9ef7:0x2db0e71d46161b2f!2m2!1d92.165004!2d24.3811812!3e0</string>
     <string name="hoteljcplazan">https://www.google.com/maps/dir//Hotel+J+C+Plaza,+DNV+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799250/@24.3787369,92.161431,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ed6cf1d965bf:0x6b6e478f3866f8b7!2m2!1d92.1651589!2d24.3811378!3e0</string>
     <string name="hotelraatdinn">https://www.google.com/maps/dir//Hotel+Raatdin+%E0%A6%B9%E0%A7%8B%E0%A6%9F%E0%A7%87%E0%A6%B2+%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A6%E0%A6%BF%E0%A6%A8,+Kalibari+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799253/@24.3787369,92.161431,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecc2f0189339:0xb02011ba13489b50!2m2!1d92.162874!2d24.3804855!3e0</string>
@@ -349,5 +347,100 @@
     <string name="gorakhnathtemplen">https://www.google.com/maps/dir//Gorakhnath+Temple,+Padmapur,+Dharmanagar,+Tripura+799253/@24.3718715,92.1571944,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecd951405093:0xfd21e71484d57fdc!2m2!1d92.1593831!2d24.3718666!3e0</string>
     <string name="notunpattishanimandirn">https://www.google.com/maps/dir//Natunpatty+shani+mandir,+Notun+Patti+Rd,+Power+House+Quater+Complex,+Dharmanagar,+Tripura+799251/@24.3841064,92.1635781,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3751ecea3f91470f:0xfe9d3b4ac23c075a!2m2!1d92.1660008!2d24.3855239!3e0</string>
 
+
+
+    <!--kathmandu-->
+    <string name="aryatarahotel">https://www.google.com/maps/place/Arya+Tara+Hotel/@27.7159288,85.3123851,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1902bbe73eab:0xc38e6cbe198a8a53!8m2!3d27.7159241!4d85.3145738</string>
+    <string name="grandhotelkathmandu">https://www.google.com/maps/place/Grand+Hotel+Kathmandu/@27.698886,85.2735135,14z/data=!4m8!1m2!2m1!1shotel!3m4!1s0x39eb185f99cf29db:0xf09e06a868d0b500!8m2!3d27.698886!4d85.291023</string>
+    <string name="hotelhimalaya">https://www.google.com/maps/place/Hostel+Himalaya/@27.7220857,85.3083016,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb18e3d05ed41b:0xafa2410540972f76!8m2!3d27.722081!4d85.3104903</string>
+    <string name="hotelshangrila">https://www.google.com/maps/place/Hotel+Shangri~La,+Kathmandu/@27.7253251,85.3200757,17z/data=!4m8!1m2!2m1!1shotels!3m4!1s0x39eb1919afff4e4d:0x3435a7674aa67c88!8m2!3d27.7253251!4d85.3222644</string>
+    <string name="apsaraboutiquehotel">https://www.google.com/maps/place/Apsara+Boutique+Hotel/@27.7176069,85.3083672,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb18e3287d7f4b:0x34107875e856d0f4!8m2!3d27.7176022!4d85.3105559</string>
+    <string name="avataarhotel">https://www.google.com/maps/place/Avataar+Kathmandu+Hotel+-+Thamel/@27.7167897,85.3075313,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb18e3355645ab:0xff7c101523d6540c!8m2!3d27.716785!4d85.30972</string>
+
+    <string name="gongabubusstation">https://www.google.com/maps/place/Gongabu+New+Bus+Station+Parking/@27.7324407,85.3059398,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb18dc193a2d8f:0xa0a580a825c16a24!8m2!3d27.732436!4d85.3081285</string>
+    <string name="ratnaparkbusstop">https://www.google.com/maps/place/Ratnapark+Bus+Stop/@27.7067727,85.3131682,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1900426f8ea3:0x67c7a623e0072a32!8m2!3d27.706768!4d85.3153569</string>
+
+    <string name="blueberrykitchen">https://www.google.com/maps/place/Blueberry+Kitchen+%26+Coffee+Shop/@27.7085333,85.2966979,12z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x39eb18fc9e3ef91b:0x33102912ae3f0f5d!8m2!3d27.7126637!4d85.3089251</string>
+    <string name="frenskitchen">https://www.google.com/maps/place/Frens+Kitchen/@27.7085333,85.2966979,12z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x39eb18fde68320c9:0xf6699835a57c706!8m2!3d27.7115194!4d85.3126419</string>
+    <string name="fusionhimalayarestaurant">https://www.google.com/maps/place/Fusion+Himalaya+Resturent/@27.7085333,85.2966979,12z/data=!4m8!1m2!2m1!1srestaurant!3m4!1s0x39eb18fca65eadd7:0xbbf289f5d4daadbb!8m2!3d27.7149996!4d85.3085206</string>
+    <string name="grilloreganorestaurant">https://www.google.com/maps/place/Grill+Oregano+Restaurant/@27.7168105,85.307298,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb18e34b4617fd:0xc9112352928cce83!8m2!3d27.7168058!4d85.3094867</string>
+    <string name="melroserestaurant">https://www.google.com/maps/place/Melrose+Restaurant+%26+Bar/@27.7134847,85.3103233,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb18fd9970f7dd:0x470ee4c49ab3f9!8m2!3d27.71348!4d85.312512</string>
+
+    <string name="bigmart">https://www.google.com/maps/place/Big+Mart/@27.7206533,85.3174313,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb191b9a5e96c7:0xd28f43e7923aa528!8m2!3d27.7206486!4d85.31962</string>
+    <string name="civilmall">https://www.google.com/maps/place/Civil+Mall/@27.6993405,85.3101944,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1854a0c1c183:0x864be1bcc05db676!8m2!3d27.6993358!4d85.3123831</string>
+    <string name="adidas">https://www.google.com/maps/place/Adidas/@27.7127746,85.3157533,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb190394a306e7:0x8759259261d4757e!8m2!3d27.7127699!4d85.317942</string>
+    <string name="risingmall">https://www.google.com/maps/place/Rising+Mall/@27.7098863,85.3168664,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1906c9e76479:0xf2482d58f67a20eb!8m2!3d27.7098816!4d85.3190551</string>
+    <string name="minisonepal">https://www.google.com/maps/place/Miniso+Nepal/@27.7098874,85.3169411,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1906b676a017:0x4814c326f3441885!8m2!3d27.7098827!4d85.3191298</string>
+    <string name="lalitpurmall">https://www.google.com/maps/place/Lalitpur+Mall/@27.6676729,85.319614,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb19d05418bebb:0x8c15f021b9cfabc2!8m2!3d27.6676682!4d85.3218027</string>
+
+    <string name="nepalinvestmentbank">https://www.google.com/maps/place/Nepal+Investment+Bank/@27.7117028,85.3156966,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1903e46cc0d7:0x1e4a3450efd18e9b!8m2!3d27.7116981!4d85.3178853</string>
+    <string name="kumaribankltd">https://www.google.com/maps/place/Kumari+Bank/@27.7117123,85.3156966,17z/data=!4m8!1m2!2m1!1sbanks!3m4!1s0x39eb1903dfadde1b:0xf071bb44bac89f16!8m2!3d27.7117159!4d85.317377</string>
+    <string name="sanimabankltd">https://www.google.com/maps/place/Sanima+Bank+Limited+Head+Office/@27.7153187,85.3248337,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb190fa97e744b:0x588879578c07c298!8m2!3d27.7153139!4d85.3270224</string>
+    <string name="siddharthabankltd">https://www.google.com/maps/place/Siddhartha+Bank/@27.7102632,85.3125041,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1901ed95caf3:0x73cf83d8254b9960!8m2!3d27.7102585!4d85.3146928</string>
+    <string name="sunrisebank">https://www.google.com/maps/place/Sunrise+Bank/@27.7177601,85.3255866,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1911dd05512d:0xaeaa80652c7f2e8a!8m2!3d27.7177554!4d85.3277753</string>
+
+    <string name="norvicinternationalhospital">https://www.google.com/maps/place/Norvic+International+Hospital/@27.6899959,85.3168704,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb19b163529399:0x522e7f4734ac0fb9!8m2!3d27.6899912!4d85.3190591</string>
+    <string name="kathmanduhospital">https://www.google.com/maps/place/Kathmandu+Hospital/@27.6942237,85.3088292,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb185288379337:0x81739e1490c572f0!8m2!3d27.694219!4d85.3110179</string>
+    <string name="kantichildrenshospital">https://www.google.com/maps/place/Kanti+Childrens+Hospital/@27.7346864,85.3262834,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb193c042a6e29:0x64f289c5109f3317!8m2!3d27.7346817!4d85.3284721</string>
+    <string name="grandinternationalhospital">https://www.google.com/maps/place/Grande+International+Hospital/@27.7528807,85.3237003,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1ecd37e8c0f7:0x7a67d17bb4be1b4d!8m2!3d27.752876!4d85.325889</string>
+    <string name="bandbhospital">https://www.google.com/maps/place/B+%26+B+Hospital/@27.663325,85.3132515,14z/data=!4m8!1m2!2m1!1shospital!3m4!1s0x39eb19dc0292b3ff:0x6f680f4ddb4cc653!8m2!3d27.663325!4d85.330761</string>
+
+    <string name="galaxypublicschool">https://www.google.com/maps/place/Galaxy+Public+School/@27.7079334,85.3283543,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb190a3a408851:0x5fd8327bb624c532!8m2!3d27.7079287!4d85.330543</string>
+    <string name="lincolnschool">https://www.google.com/maps/place/Kathmandu+Lincoln+School/@27.7204711,85.3039348,13z/data=!4m8!1m2!2m1!1slincoln+school!3m4!1s0x0:0x68110bbef27cfc80!8m2!3d27.7545035!4d85.307014</string>
+    <string name="littleangles">https://www.google.com/maps/place/Little+Angels+School/@27.6501707,85.3323273,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb175dbc7a5399:0x9a5d1bedd75af842!8m2!3d27.650166!4d85.334516</string>
+    <string name="ratobanglaschool">https://www.google.com/maps/place/Rato+Bangala+School/@27.6781615,85.3177335,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb19c96e82efcb:0xb1eab4d55f29fdb3!8m2!3d27.6781568!4d85.3199222</string>
+
+    <string name="pashupatinathtemple">https://www.google.com/maps/place/Shree+Pashupatinath+Temple/@27.7104639,85.3465473,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb197922ea1e89:0x739090deff2ba4a6!8m2!3d27.7104605!4d85.3487083</string>
+    <string name="swayambhunathtemple">https://www.google.com/maps/place/Swayambhunath+Stupa/@27.7147838,85.2881909,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb188d9b82c8ad:0xae31bde410797bf7!8m2!3d27.7147791!4d85.2903796</string>
+    <string name="guhyeshworitemple">https://www.google.com/maps/place/Guhyeshwori+Temple/@27.7112656,85.3512429,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb197e6bfc9b79:0x6c8d555905c09552!8m2!3d27.7112609!4d85.3534316</string>
+    <string name="bouddhanathtemple">https://www.google.com/maps/place/Boudhha+Stupa/@27.7213683,85.3598247,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1bdbb2c840cf:0xcd38f61f17dad37e!8m2!3d27.7213636!4d85.3620134</string>
+
+
+
+
+    <string name="aryatarahoteln">https://www.google.com/maps/dir//Arya+Tara+Hotel,+Kathmandu+44600,+Kesarmahal+Rd,+Kathmandu+44600,+Nepal/@27.7159288,85.3123851,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1902bbe73eab:0xc38e6cbe198a8a53!2m2!1d85.3145738!2d27.7159241!3e0</string>
+    <string name="grandhotelkathmandun">https://www.google.com/maps/dir//Grand+Hotel+Kathmandu,+Red+Cross+Sadak,+Kathmandu+44614,+Nepal/@27.698886,85.2735135,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb185f99cf29db:0xf09e06a868d0b500!2m2!1d85.291023!2d27.698886!3e0</string>
+    <string name="hotelhimalayan">https://www.google.com/maps/dir//Hostel+Himalaya,+Kathmandu+44600,+Nepal/@27.7220857,85.3083016,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18e3d05ed41b:0xafa2410540972f76!2m2!1d85.3104903!2d27.722081!3e0</string>
+    <string name="hotelshangrilan">https://www.google.com/maps/dir//Hotel+Shangri~La,+Kathmandu,+Lazimpat+Rd+Lazimpat,+Kathmandu+44600,+Nepal/@27.7253251,85.3200757,17z/data=!4m16!1m6!3m5!1s0x39eb1919afff4e4d:0x3435a7674aa67c88!2sHotel+Shangri~La,+Kathmandu!8m2!3d27.7253251!4d85.3222644!4m8!1m0!1m5!1m1!1s0x39eb1919afff4e4d:0x3435a7674aa67c88!2m2!1d85.3222644!2d27.7253251!3e0</string>
+    <string name="apsaraboutiquehoteln">https://www.google.com/maps/dir//Apsara+Boutique+Hotel,+Chaksibari+Marg,+Kathmandu+44600,+Nepal/@27.7176069,85.3083672,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18e3287d7f4b:0x34107875e856d0f4!2m2!1d85.3105559!2d27.7176022!3e0</string>
+    <string name="avataarhoteln">https://www.google.com/maps/dir//Avataar+Kathmandu+Hotel+-+Thamel,+Z+Street,+Kathmandu+44600,+Nepal/@27.7167897,85.3075313,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18e3355645ab:0xff7c101523d6540c!2m2!1d85.30972!2d27.716785!3e0</string>
+
+    <string name="gongabubusstationn">https://www.google.com/maps/dir//Gongabu+New+Bus+Station+Parking,+Kathmandu+44600,+Nepal/@27.7324407,85.3059398,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18dc193a2d8f:0xa0a580a825c16a24!2m2!1d85.3081285!2d27.732436!3e0</string>
+    <string name="ratnaparkbusstopn">https://www.google.com/maps/dir//Ratnapark+Bus+Stop,+Ratna+Park+Path,+Kathmandu+44600,+Nepal/@27.7067727,85.3131682,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1900426f8ea3:0x67c7a623e0072a32!2m2!1d85.3153569!2d27.706768!3e0</string>
+
+    <string name="blueberrykitchenn">https://www.google.com/maps/dir//Blueberry+Kitchen+%26+Coffee+Shop,+Paknajol+Marg,+Kathmandu+44600,+Nepal/@27.7085333,85.2966979,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18fc9e3ef91b:0x33102912ae3f0f5d!2m2!1d85.3089251!2d27.7126637!3e0</string>
+    <string name="frenskitchenn">https://www.google.com/maps/dir//Frens+Kitchen,+Kathmandu+44600,+Nepal/@27.7085333,85.2966979,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18fde68320c9:0xf6699835a57c706!2m2!1d85.3126419!2d27.7115194!3e0</string>
+    <string name="fusionhimalayarestaurantn">https://www.google.com/maps/dir//Fusion+Himalaya+Resturent,+Paknajol+Marg,+Kathmandu+44600,+Nepal/@27.7085333,85.2966979,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18fca65eadd7:0xbbf289f5d4daadbb!2m2!1d85.3085206!2d27.7149996!3e0</string>
+    <string name="grilloreganorestaurantn">https://www.google.com/maps/dir//Grill+Oregano+Restaurant,+Z+Street,+Kathmandu+44600,+Nepal/@27.7168105,85.307298,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18e34b4617fd:0xc9112352928cce83!2m2!1d85.3094867!2d27.7168058!3e0</string>
+    <string name="melroserestaurantn">https://www.google.com/maps/dir//Melrose+Restaurant+%26+Bar,+350,+Amrit+Marg,+Kathmandu+44600,+Nepal/@27.7134847,85.3103233,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb18fd9970f7dd:0x470ee4c49ab3f9!2m2!1d85.312512!2d27.71348!3e0</string>
+
+    <string name="bigmartn">https://www.google.com/maps/dir//Big+Mart,+Lazimpat+Rd,+Kathmandu+44616,+Nepal/@27.7206533,85.3174313,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb191b9a5e96c7:0xd28f43e7923aa528!2m2!1d85.31962!2d27.7206486!3e0</string>
+    <string name="civilmalln">https://www.google.com/maps/dir//Civil+Mall,+Kathmandu+44600,+Nepal/@27.6993405,85.3101944,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1854a0c1c183:0x864be1bcc05db676!2m2!1d85.3123831!2d27.6993358!3e0</string>
+    <string name="adidasn">https://www.google.com/maps/dir//Adidas,+Durbar+Marg,+Kathmandu+44600,+Nepal/@27.7127746,85.3157533,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb190394a306e7:0x8759259261d4757e!2m2!1d85.317942!2d27.7127699!3e0</string>
+    <string name="risingmalln">https://www.google.com/maps/dir//Rising+Mall,+Teendhara+Marg,+Kathmandu+44600,+Nepal/@27.7098863,85.3168664,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1906c9e76479:0xf2482d58f67a20eb!2m2!1d85.3190551!2d27.7098816!3e0</string>
+    <string name="minisonepaln">https://www.google.com/maps/dir//Miniso+Nepal,+Teendhara+Marg,+Kathmandu+44600,+Nepal/@27.7098874,85.3169411,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1906b676a017:0x4814c326f3441885!2m2!1d85.3191298!2d27.7098827!3e0</string>
+    <string name="lalitpurmalln">https://www.google.com/maps/dir//Lalitpur+Mall,+Shajha+Rd,+Patan+44700,+Nepal/@27.6676729,85.319614,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb19d05418bebb:0x8c15f021b9cfabc2!2m2!1d85.3218027!2d27.6676682!3e0</string>
+
+    <string name="nepalinvestmentbankn">https://www.google.com/maps/dir//Nepal+Investment+Bank,+Durbar+Marg,+Kathmandu+44600,+Nepal/@27.7117028,85.3156966,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1903e46cc0d7:0x1e4a3450efd18e9b!2m2!1d85.3178853!2d27.7116981!3e0</string>
+    <string name="kumaribankltdn">https://www.google.com/maps/dir//Kumari+Bank,+Durbar+Marg,+Kathmandu+44600,+Nepal/@27.7117123,85.3156966,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1903dfadde1b:0xf071bb44bac89f16!2m2!1d85.317377!2d27.7117159!3e0</string>
+    <string name="sanimabankltdn">https://www.google.com/maps/dir///@27.7153187,85.3248337,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb190fa97e744b:0x588879578c07c298!2m2!1d85.3270224!2d27.7153139!3e0</string>
+    <string name="siddharthabankltdn">https://www.google.com/maps/dir//Siddhartha+Bank,+Ward+No:+30,+KaNTIPATH,+Kathmandu,+Nepal,+Kathmandu+44600,+Nepal/@27.7102632,85.3125041,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1901ed95caf3:0x73cf83d8254b9960!2m2!1d85.3146928!2d27.7102585!3e0</string>
+    <string name="sunrisebankn">https://www.google.com/maps/dir//Sunrise+Bank,+Gairidhara+Sadak,+Kathmandu+44600,+Nepal/@27.7177601,85.3255866,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1911dd05512d:0xaeaa80652c7f2e8a!2m2!1d85.3277753!2d27.7177554!3e0</string>
+
+    <string name="norvicinternationalhospitaln">https://www.google.com/maps/dir//Norvic+International+Hospital,+Kathmandu+44617,+Nepal/@27.6899959,85.3168704,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb19b163529399:0x522e7f4734ac0fb9!2m2!1d85.3190591!2d27.6899912!3e0</string>
+    <string name="kathmanduhospitaln">https://www.google.com/maps/dir//Kathmandu+Hospital,+%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%97,+Kathmandu+44600,+Nepal/@27.6942237,85.3088292,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb185288379337:0x81739e1490c572f0!2m2!1d85.3110179!2d27.694219!3e0</string>
+    <string name="kantichildrenshospitaln">https://www.google.com/maps/dir//Kanti+Childrens+Hospital,+%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%97%E0%A4%A8%E0%A5%8D%E0%A4%9C+%E0%A4%B8%E0%A4%A1%E0%A4%95,+Kathmandu+44600,+Nepal/@27.7346864,85.3262834,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb193c042a6e29:0x64f289c5109f3317!2m2!1d85.3284721!2d27.7346817!3e0</string>
+    <string name="grandinternationalhospitaln">https://www.google.com/maps/dir//Grande+International+Hospital,+Tokha+Rd,+Kathmandu+44600,+Nepal/@27.7528807,85.3237003,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1ecd37e8c0f7:0x7a67d17bb4be1b4d!2m2!1d85.325889!2d27.752876!3e0</string>
+    <string name="bandbhospitaln">https://www.google.com/maps/dir///@27.663325,85.3132515,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb19dc0292b3ff:0x6f680f4ddb4cc653!2m2!1d85.330761!2d27.663325!3e0</string>
+
+    <string name="galaxypublicschooln">https://www.google.com/maps/dir//Galaxy+Public+School,+%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0+%E0%A5%A9%E0%A5%A9+%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0+%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%97,+Kathmandu+44600,+Nepal/@27.7079334,85.3283543,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb190a3a408851:0x5fd8327bb624c532!2m2!1d85.330543!2d27.7079287!3e0</string>
+    <string name="lincolnschooln">https://www.google.com/maps/dir//Kathmandu+Lincoln+School,+Kathmandu+44600,+Nepal/@27.7204711,85.3039348,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1f2cf4fec2bb:0x68110bbef27cfc80!2m2!1d85.3070103!2d27.754503!3e0</string>
+    <string name="littleanglesn">https://www.google.com/maps/dir//Little+Angels+School,+%E0%A4%B8%E0%A4%BE%E0%A4%A4%E0%A4%A6%E0%A5%8B%E0%A4%AC%E0%A4%BE%E0%A4%9F%E0%A5%8B+%E0%A4%97%E0%A5%8B%E0%A4%A6%E0%A4%BE%E0%A4%B5%E0%A4%B0%E0%A5%80+%E0%A4%B8%E0%A4%A1%E0%A4%95,+Patan+44700,+Nepal/@27.6501707,85.3323273,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb175dbc7a5399:0x9a5d1bedd75af842!2m2!1d85.334516!2d27.650166!3e0</string>
+    <string name="ratobanglaschooln">https://www.google.com/maps/dir//Rato+Bangala+School,+Patan+Dhoka-Madan+Smarak+Road,+Patan+44700,+Nepal/@27.6781615,85.3177335,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb19c96e82efcb:0xb1eab4d55f29fdb3!2m2!1d85.3199222!2d27.6781568!3e0</string>
+
+    <string name="pashupatinathtemplen">https://www.google.com/maps/dir//Shree+Pashupatinath+Temple,+Pashupati+Nath+Road+44621,+Kathmandu+44600,+Nepal/@27.7104639,85.3465473,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb197922ea1e89:0x739090deff2ba4a6!2m2!1d85.3487083!2d27.7104605!3e0</string>
+    <string name="swayambhunathtemplen">https://www.google.com/maps/dir//Swayambhunath+Stupa,+Kathmandu+44600,+Nepal/@27.7147838,85.2881909,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb188d9b82c8ad:0xae31bde410797bf7!2m2!1d85.2903796!2d27.7147791!3e0</string>
+    <string name="guhyeshworitemplen">https://www.google.com/maps/dir//Guhyeshwori+Temple,+Kathmandu+44621,+Nepal/@27.7112656,85.3512429,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb197e6bfc9b79:0x6c8d555905c09552!2m2!1d85.3534316!2d27.7112609!3e0</string>
+    <string name="bouddhanathtemplen">https://www.google.com/maps/dir//Boudhha+Stupa,+44600,+Kathmandu+44600,+Nepal/@27.7213683,85.3598247,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1bdbb2c840cf:0xcd38f61f17dad37e!2m2!1d85.3620134!2d27.7213636!3e0</string>
 
 </resources>
