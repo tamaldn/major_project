@@ -5,31 +5,42 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.location.Address;
+import android.location.Geocoder;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
+import java.util.regex.Pattern;
 
 public class DharmanagarActivity extends AppCompatActivity {
 
     private ExpandableListView expandableListView;
     private Dialog myDialog;
+    private Dialog infoDialog;
+    Geocoder geocoder;
+    List<Address> addresses;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dharmanagar);
+        geocoder = new Geocoder(this, Locale.getDefault());
 
         myDialog = new Dialog(this);
+        infoDialog = new Dialog(this);
         expandableListView = (ExpandableListView)findViewById(R.id.expandablelistview);
         final List<String> Headings = new ArrayList<String>();
         List<String> L1 = new ArrayList<String>();
@@ -101,7 +112,7 @@ public class DharmanagarActivity extends AppCompatActivity {
             @Override
             public boolean onChildClick (ExpandableListView parent, View v, int groupPosition, final int childPosition, final long id) {
 
-                String txt = Childlist.get(Headings.get(groupPosition)).get(childPosition);
+                final String txt = Childlist.get(Headings.get(groupPosition)).get(childPosition);
                 String idname = txt.toLowerCase().replaceAll("\\s+","");
                 myDialog.setContentView(R.layout.custom_popup);
                 TextView textView;
@@ -145,7 +156,59 @@ public class DharmanagarActivity extends AppCompatActivity {
                         startActivity(i);
                     }
                 });
+
+                ImageButton info = myDialog.findViewById(R.id.info);
+                info.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        gotoinfo(locat,txt);
+                    }
+                });
                 return false;
+            }
+        });
+    }
+    public void gotoinfo(String locat, String txt)
+    {
+        infoDialog.setContentView(R.layout.info_popup);
+        infoDialog.show();
+        String loc = locat;
+        TextView title = infoDialog.findViewById(R.id.title);
+        TextView featurename = infoDialog.findViewById(R.id.featurename);
+        TextView locality = infoDialog.findViewById(R.id.locality);
+        TextView adminarea = infoDialog.findViewById(R.id.adminarea);
+        TextView countryname = infoDialog.findViewById(R.id.countryname);
+        TextView postalcode = infoDialog.findViewById(R.id.postalcode);
+        TextView close = infoDialog.findViewById(R.id.closebutton);
+
+        String[] part1 = loc.split(Pattern.quote("@"));
+        String[] part2 = part1[1].split(Pattern.quote(","));
+        Double latitude = Double.parseDouble(part2[0]);
+        Double longitude = Double.parseDouble(part2[1]);
+        try
+        {
+            addresses = geocoder.getFromLocation(latitude,longitude,1);
+            String feature = addresses.get(0).getFeatureName();
+            String localit = addresses.get(0).getLocality();
+            String area = addresses.get(0).getAdminArea();
+            String country = addresses.get(0).getCountryName();
+            String code = addresses.get(0).getPostalCode();
+
+            title.setText(txt);
+            featurename.setText(feature);
+            locality.setText(localit);
+            adminarea.setText(area);
+            countryname.setText(country);
+            postalcode.setText(code);
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
+        close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                infoDialog.dismiss();
             }
         });
     }

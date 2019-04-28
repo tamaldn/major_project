@@ -20,6 +20,12 @@
     <string name="loc">Show location on Google map</string>
     <string name="dir">Get Directions</string>
     <string name="info">Show information</string>
+    <string name="address">Address</string>
+    <string name="featrue">Featrue</string>
+    <string name="locality">Locality</string>
+    <string name="countryname">CountryName</string>
+    <string name="postalcode">PostalCode</string>
+    <string name="adminarea">AdminArea</string>
 
     <string-array name="header_titles">
         <item>Hotels</item>
