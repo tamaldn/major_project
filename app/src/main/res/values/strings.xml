@@ -449,4 +449,11 @@
     <string name="guhyeshworitemplen">https://www.google.com/maps/dir//Guhyeshwori+Temple,+Kathmandu+44621,+Nepal/@27.7112656,85.3512429,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb197e6bfc9b79:0x6c8d555905c09552!2m2!1d85.3534316!2d27.7112609!3e0</string>
     <string name="bouddhanathtemplen">https://www.google.com/maps/dir//Boudhha+Stupa,+44600,+Kathmandu+44600,+Nepal/@27.7213683,85.3598247,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x39eb1bdbb2c840cf:0xcd38f61f17dad37e!2m2!1d85.3620134!2d27.7213636!3e0</string>
 
+
+    <string name="log_out">Logout</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+
 </resources>

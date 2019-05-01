@@ -87,8 +87,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     }
 
     public void openlogin(){
-        Intent i=new Intent(RegisterActivity.this,LoginActivity.class);
-        startActivity(i);
+        finish();
     }
 
     @Override

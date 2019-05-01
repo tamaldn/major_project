@@ -28,11 +28,19 @@ public class BirgunjActivity extends AppCompatActivity {
     private Dialog infoDialog;
     Geocoder geocoder;
     List<Address> addresses;
+    private ImageButton back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.birgunj);
+        back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         geocoder = new Geocoder(this, Locale.getDefault());
         myDialog = new Dialog(this);

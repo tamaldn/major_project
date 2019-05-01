@@ -32,13 +32,20 @@ public class DharmanagarActivity extends AppCompatActivity {
     private Dialog infoDialog;
     Geocoder geocoder;
     List<Address> addresses;
+    private ImageButton back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dharmanagar);
         geocoder = new Geocoder(this, Locale.getDefault());
-
+        back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         myDialog = new Dialog(this);
         infoDialog = new Dialog(this);
         expandableListView = (ExpandableListView)findViewById(R.id.expandablelistview);

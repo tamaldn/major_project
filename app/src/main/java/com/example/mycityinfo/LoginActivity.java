@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         if(firebaseUser != null){
             Intent i = new Intent(LoginActivity.this, ContentActivity.class);
+            finish();
             startActivity(i);
         }
 
@@ -79,6 +80,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         progressDialog.dismiss();
                         if (task.isSuccessful()) {
                             Intent i = new Intent(LoginActivity.this,ContentActivity.class);
+                            finish();
                             startActivity(i);
                         } else {
                             Toast.makeText(LoginActivity.this,"Email or Password are incorrect",Toast.LENGTH_SHORT).show();
