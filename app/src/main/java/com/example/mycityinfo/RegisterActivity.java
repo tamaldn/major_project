@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +18,8 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.regex.Pattern;
+
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button registerButton;
@@ -26,6 +29,13 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private Button loginButton;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
+
+    private static final Pattern PASSWORD_PATTERN =
+            Pattern.compile("^" +
+                    "(?=.*[0-9])" +
+                    "(?=.*[a-zA-Z])" +
+                    ".{4,}" +
+                    "$");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,8 +58,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     public void registeruser(){
 
         String email = emailEditText.getText().toString().trim();
-        String password = passwordEditText.getText().toString().trim();
-        String cnfpassword = cnfpasswordEditText.getText().toString().trim();
+        String password = passwordEditText.getText().toString();
+        String cnfpassword = cnfpasswordEditText.getText().toString();
 
         if(TextUtils.isEmpty(email)){
             Toast.makeText(this,"Please enter email",Toast.LENGTH_SHORT).show();
@@ -63,31 +73,38 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             Toast.makeText(this,"Please confirm your password",Toast.LENGTH_SHORT).show();
             return;
         }
-        if(TextUtils.equals(password,cnfpassword)) {
-            progressDialog.setTitle("Registering user");
-            progressDialog.setMessage("Please wait");
-            progressDialog.show();
-            firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    progressDialog.dismiss();
-                    if (task.isSuccessful()) {
-                        Toast.makeText(RegisterActivity.this, "Registered successfully", Toast.LENGTH_SHORT).show();
-                        openlogin();
-                    } else {
-                        Toast.makeText(RegisterActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
-                    }
-                }
-            });
+        if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            Toast.makeText(this,"Please enter a valid email address",Toast.LENGTH_SHORT).show();
+            return;
         }
-        else {
+        if(password.length()<6){
+            Toast.makeText(this,"Password should contain at least 6 characters",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if(!PASSWORD_PATTERN.matcher(password).matches()){
+            Toast.makeText(this,"Password should contain at least 1 number and 1 character",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if(!TextUtils.equals(password,cnfpassword)) {
             Toast.makeText(this,"Passwords Does not match",Toast.LENGTH_SHORT).show();
             return;
         }
-    }
-
-    public void openlogin(){
-        finish();
+        progressDialog.setTitle("Registering user");
+        progressDialog.setMessage("Please wait");
+        progressDialog.show();
+        firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                progressDialog.dismiss();
+                if (task.isSuccessful()) {
+                    Toast.makeText(RegisterActivity.this, "Registered successfully", Toast.LENGTH_SHORT).show();
+                    finish();
+                    firebaseAuth.signOut();
+                } else {
+                    Toast.makeText(RegisterActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
     @Override
@@ -98,7 +115,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
 
         if(v == loginButton){
-            openlogin();
+            finish();
         }
 
     }
